@@ -1,0 +1,12 @@
+
+# Experiment with mathematical operations
+a = 5
+b = 3
+c = a + b
+print("The value of c after adding a and b is:", c)
+d = a - b
+print("The value of d after subtracting b from a is:", d)
+e = a * b
+print("The value of e after multiplying a and b is:", e)
+f = a / b
+print("The value of f after dividing a by b is:", f)
