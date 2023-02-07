@@ -1,0 +1,8 @@
+
+# Experiment with string operations
+name = "Dove"
+age = 22
+greeting = "My name is " + name + " and I am " + str(age) + " years old."
+print(greeting)
+
+print  
