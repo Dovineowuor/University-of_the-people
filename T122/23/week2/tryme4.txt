@@ -1,0 +1,28 @@
+Three lines
+.
+.
+.
+Nine lines
+.
+.
+.
+.
+.
+.
+.
+.
+.
+Print clear screen
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
