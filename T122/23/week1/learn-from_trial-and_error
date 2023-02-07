@@ -1,0 +1,26 @@
+# Experiment with mathematical operations
+a = 3
+b = 4
+c = a + b
+print("The value of c after adding a and b is:", c)
+d = a - b
+print("The value of d after subtracting b from a is:", d)
+e = a * b
+print("The value of e after multiplying a and b is:", e)
+f = a / b
+print("The value of f after dividing a by b is:", f)
+
+# Experiment with string operations
+name = "John"
+age = 25
+greeting = "My name is " + name + " and I am " + str(age) + " years old."
+print(greeting)
+
+# Experiment with conditional statements
+x = input()
+if x > 0:
+    print("x is positive")
+elif x < 0:
+    print("x is negative")
+else:
+    print("x is zero")
