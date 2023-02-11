@@ -1,0 +1,291 @@
+~ $ python --version
+
+Python 3.10.4
+
+~ $ python
+
+Python 3.10.4 (main, Mar 25 2022, 15:08:09) [Clang 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7 on linux
+
+Type "help", "copyright", "credits" or "license" for more information.
+
+>>> print("Hello World")
+
+Hello World
+
+>>> 1+1
+
+2
+
+>>> print Hello world
+
+  File "<stdin>", line 1
+
+    print Hello world
+
+    ^^^^^^^^^^^
+
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(...)?
+
+>>> print(Hello World!")
+
+  File "<stdin>", line 1
+
+    print(Hello World!")
+
+          ^^^^^^^^^^^
+
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+>>> ptint("Hello World")
+
+Traceback (most recent call last):
+
+  File "<stdin>", line 1, in <module>
+
+NameError: name 'ptint' is not defined. Did you mean: 'print'?
+
+>>> printz'Hello World!'
+
+  File "<stdin>", line 1
+
+    printz'Hello World!'
+
+          ^^^^^^^^^^^^^^
+
+SyntaxError: invalid syntax
+
+>>> print('Hello World!')
+
+Hello World!
+
+>>> print('Yaay, You did it!')
+
+Yaay, You did it!
+
+>>> 40+2
+
+42
+
+>>> 90*5
+
+450
+
+>>> 90^5
+
+95
+
+>>> 90^^5
+
+  File "<stdin>", line 1
+
+    90^^5
+
+       ^
+
+SyntaxError: invalid syntax
+
+>>> 90%4
+
+2
+
+>>> 4%90
+
+4
+
+>>> print('Modulo (%) is a python operator used to display a remainder from a python division operation.
+
+  File "<stdin>", line 1
+
+    print('Modulo (%) is a python operator used to display a remainder from a python division operation.
+
+          ^
+
+SyntaxError: unterminated string literal (detected at line 1)
+
+>>> print('Modulo (%) is a python operator used to display a remainder from a python division operation.')
+
+Modulo (%) is a python operator used to display a remainder from a python division operation.
+
+>>> print('plus (+) is used to add two variables')
+
+plus (+) is used to add two variables
+
+>>> print('power(**) is used to return first variable raised to power second variable')
+
+power(**) is used to return first variable raised to power second variable
+
+>>> print('division(/), float devides two operands')
+
+division(/), float devides two operands
+
+>>> print('division(//) floor, devides the first operand by the second operand')
+
+division(//) floor, devides the first operand by the second operand
+
+>>> print(' Bitwise operator(^), compares each bit of the first operand to the second corresponding operandZ')
+
+ Bitwise operator(^), compares each bit of the first operand to the second corresponding operandZ
+
+>>> 2++2
+
+4
+
+>>> 2--2
+
+4
+
+>>> 2+-2
+
+0
+
+>>> 2-+2
+
+0
+
+>>> print('a. If you are trying to print a string and forget to include one of the quotation marks your )
+
+  File "<stdin>", line 1
+
+    print('a. If you are trying to print a string and forget to include one of the quotation marks your )
+
+          ^
+
+SyntaxError: unterminated string literal (detected at line 1)
+
+>>> print('a. If you are trying to print a string and forget to include one of the quotation marks your program wont run instead will throw a prompt regarding the error envountered')
+
+a. If you are trying to print a string and forget to include one of the quotation marks your program wont run instead will throw a prompt regarding the error envountered
+
+>>> 2--2
+
+4
+
+>>> 2++2
+
+4
+
+>>> 2+-2
+
+0
+
+>>> 2-+2
+
+0
+
+>>> 01
+
+  File "<stdin>", line 1
+
+    01
+
+    ^
+
+SyntaxError: leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers
+
+>>> print'leading zeros in python will print out a syntax error. This is due to the fact that leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers')
+
+  File "<stdin>", line 1
+
+    print'leading zeros in python will print out a syntax error. This is due to the fact that leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers')
+
+                                                                                                                                                                                               ^
+
+SyntaxError: unmatched ')'
+
+>>> print('leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers. '
+
+... )
+
+leading zeros in decimal integer literals are not permitted; use an 0o prefix for octal integers.
+
+>>> print(when you have two values with no operator and space in between them, then the output will render the same value as the statement')
+
+  File "<stdin>", line 1
+
+    print(when you have two values with no operator and space in between them, then the output will render the same value as the statement')
+
+          ^^^^^^^^
+
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+>>> print('when you have two values with no operator and space in between them, then the output will render the same value as the statement')
+
+when you have two values with no operator and space in between them, then the output will render the same value as the statement
+
+>>> print(' I learnt about repeating a string using multiplication and the value set to any value. for instatnce; print('Python Is LifeZ'*6) prints the string 6 times as shown below ')
+
+  File "<stdin>", line 1
+
+    print(' I learnt about repeating a string using multiplication and the value set to any value. for instatnce; print('Python Is LifeZ'*6) prints the string 6 times as shown below ')
+
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+>>> print(' I learnt about repeating a string using multiplication and the value set to any value. for instatnce; (print('Python Is LifeZ'*6)) prints the string 6 times as shown below ')
+
+  File "<stdin>", line 1
+
+    print(' I learnt about repeating a string using multiplication and the value set to any value. for instatnce; (print('Python Is LifeZ'*6)) prints the string 6 times as shown below ')
+
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+>>> print(' I learnt about repeating a string using multiplication and the value set to any value. for instatnce; "print('Python Is LifeZ'*6)) prints the string 6 times as shown below ')"
+
+  File "<stdin>", line 1
+
+    print(' I learnt about repeating a string using multiplication and the value set to any value. for instatnce; "print('Python Is LifeZ'*6)) prints the string 6 times as shown below ')"
+
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+
+>>> print
+
+<built-in function print>
+
+>>> print('I learnt about repeating a string using multiplication and the value set to any value. for instatnce; "print')
+
+I learnt about repeating a string using multiplication and the value set to any value. for instatnce; "print
+
+>>> print('Python Is LifeZ'*6)
+
+Python Is LifeZPython Is LifeZPython Is LifeZPython Is LifeZPython Is LifeZPython Is LifeZ
+
+>>> print('printing the above code new line but printing it six times sounded amazing and i love it. This is achieved by using the following syntax;')
+
+printing the above code new line but printing it six times sounded amazing and i love it. This is achieved by using the following syntax;
+
+>>> print('Python Is LifeZ\'*6)
+
+  File "<stdin>", line 1
+
+    print('Python Is LifeZ\'*6)
+
+          ^
+
+SyntaxError: unterminated string literal (detected at line 1)
+
+>>> print('Python Is LifeZ\n'*6)
+
+Python Is LifeZ
+
+Python Is LifeZ
+
+Python Is LifeZ
+
+Python Is LifeZ
+
+Python Is LifeZ
+
+Python Is LifeZ
+
+
+
+>>> print('I love programming python')
+
+I love programming python
+
+Downey, A. (2015). Think Python: How to think like a computer scientist. Green Tea Press. This book is licensed under Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0).
