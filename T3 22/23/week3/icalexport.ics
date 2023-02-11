@@ -1,0 +1,386 @@
+BEGIN:VCALENDAR
+METHOD:PUBLISH
+PRODID:-//Moodle Pty Ltd//NONSGML Moodle Version 2021051711//EN
+VERSION:2.0
+BEGIN:VEVENT
+UID:2874226@my.uopeople.edu
+SUMMARY:Programming Assignment Unit 2 is due
+DESCRIPTION:USING IDLE\n\nIDLE is a particular Integrated Development Envir
+	onment (IDE) that is typically included in a Python installation. An IDE wi
+	ll enable you to use a text editor to create programs (in the case of Pytho
+	n\, we refer to the program as a SCRIPT) as well as execute the program. Th
+	e IDLE editor understands the syntax of the Python programming language and
+	 can help you to debug your program by identifying code that is not valid a
+	nd must be corrected.\n\nWhen you first start IDLE\, it will display a wind
+	ow that is the Python interpreter. You can type Python commands directly in
+	to this environment\, and Python will interpret and execute them.\n\nFor al
+	l of the assignments in this course\, you must create a SCRIPT. To create a
+	 script\, select "New window" from the "File" menu. This will open a new sc
+	ript file. You can also use the "Open" or "Recent files" options under the 
+	"File" menu to open files that you have previously created.\n\nYou can ente
+	r your script into the window that opens when you use the "New window" opti
+	on. Before executing your script\, you must save it. The first time you att
+	empt to save a new script\, you will need to give it a name. All Python scr
+	ipts must have the suffix of .py on the filename.\n\nTo execute a script\, 
+	you can select the "Run Module" option under the "Run" menu\, or optionally
+	 press F5 on your keyboard.\n\n-------------------------\n\nASSIGNMENT\n\nU
+	sing the IDLE development environment\, create a Python SCRIPT named tryme4
+	.py. (Note: an alternative to IDLE is to use a free account on the pythonan
+	ywhere [1] website: )\n\nIDLE has both an interactive mode and a script mod
+	e. You must use the SCRIPT mode to develop your script. Your script must us
+	e meaningful variable names and have comments that describe what is happeni
+	ng in your script. Comments may describe the assignment of a value to a var
+	iable\, a computation and the assignment of the result to a variable\, or t
+	he display of the result.\n\nWrite a function in this file called nine_line
+	s that uses the function three_lines (provided below) to print a total of n
+	ine lines.\n\nNow add a function named clear_screen that uses a combination
+	 of the functions nine_lines\, three_lines\, and new_line (provided below) 
+	to print a total of twenty-five lines. The last line of your program should
+	 call first nine_lines and then the clear_screen function.\n\nThe  function
+	 three_lines and new_line are defined below so that you can see nested func
+	tion calls. Also\, to make counting “blank” lines visually easier\, the pri
+	nt command inside new_line will print a dot at the beginning of the line:\n
+	\ndef new_line():\n\n    print('.')\n\ndef three_lines():\n\n    new_line()
+	\n\n    new_line()\n\n    new_line()\n\nSubmit your Python script file in t
+	he posting of your assignment. Your Python script should be either a .txt f
+	ile or a .py file.\n\nYou must execute your script and paste the output pro
+	duced into a document that you will submit along with your Python script.\n
+	\nIt is very helpful if you print a placeholder between the printing of 9 l
+	ines and the printing of 25 lines. It will make your output easier to read 
+	for your instructor to assess. A placeholder can be output such as “Printin
+	g nine lines” or “Calling clearScreen()”.\n\nGood luck coding your first pr
+	ogram!\n\n-------------------------\n\nASSESSMENT\n\nThe following items wi
+	ll be used in the grading rubric for this assignment. Make sure that you ha
+	ve addressed each item in your assignment.\n\n	* Does the assignment implem
+	ent new_line\, three_lines\, nine_lines\, and clear_screen functions\, as w
+	ell as a main section of the program which calls the functions?\n\n	* Does 
+	the assignment demonstrate the use of NESTED function calls?\n\n	* Does the
+	 assignment produce the appropriate output when executed? The output should
+	 be recorded in a text file\, a Microsoft Word document\, or an RTF-formatt
+	ed document by copying the output from the Python script into the document.
+	 The successful script will print out 9 "." lines first and then 25 "." lin
+	es.\n\n	* Does the program code include comments where appropriate?\n\n----
+	---------------------\n\nREFERENCE\n\npythonanywhere._ _(2022). _Host\, run
+	\, and code Python in the cloud. _Anaconda. https://www.pythonanywhere.com/
+	 [1]\n\n\n\nLinks:\n------\n[1] https://www.pythonanywhere.com/\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20221225T121540Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230209T045500Z
+DTEND:20230209T045500Z
+CATEGORIES:CS 1101-01 - AY2023-T3
+END:VEVENT
+BEGIN:VEVENT
+UID:2874235@my.uopeople.edu
+SUMMARY:Self-Quiz Unit 2 closes
+DESCRIPTION:The Self-Quiz gives you an opportunity to self-assess your know
+	ledge of what you have learned so far.\n\nThe results of the Self-Quiz do n
+	ot count towards your final grade\, but the quiz is an important part of th
+	e University’s learning process\, and it is expected that you will take it 
+	to ensure an understanding of the materials presented. Reviewing and analyz
+	ing your results will help you perform better on future Graded Quizzes and 
+	the Final Exam.\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20221225T121540Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230209T045500Z
+DTEND:20230209T045500Z
+CATEGORIES:CS 1101-01 - AY2023-T3
+END:VEVENT
+BEGIN:VEVENT
+UID:2874211@my.uopeople.edu
+SUMMARY:Self-Quiz Unit 3 opens
+DESCRIPTION:The Self-Quiz gives you an opportunity to self-assess your know
+	ledge of what you have learned so far.\n\nThe results of the Self-Quiz do n
+	ot count towards your final grade\, but the quiz is an important part of th
+	e University’s learning process and it is expected that you will take it to
+	 ensure understanding of the materials presented. Reviewing and analyzing y
+	our results will help you perform better on future Graded Quizzes and the F
+	inal Exam.\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20221225T121540Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230209T050500Z
+DTEND:20230209T050500Z
+CATEGORIES:CS 1101-01 - AY2023-T3
+END:VEVENT
+BEGIN:VEVENT
+UID:2874212@my.uopeople.edu
+SUMMARY:Graded Quiz Unit 3 opens
+DESCRIPTION:The Graded Quiz will test your knowledge of all the materials l
+	earned thus far. You will have 45 MINUTES and 1 ATTEMPT to complete the qui
+	z. The results of the quiz will count towards your final grade.\n\nGood luc
+	k!\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20221225T121540Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230209T050500Z
+DTEND:20230209T050500Z
+CATEGORIES:CS 1101-01 - AY2023-T3
+END:VEVENT
+BEGIN:VEVENT
+UID:2874227@my.uopeople.edu
+SUMMARY:Learning Journal Unit 2 is due
+DESCRIPTION:Welcome to the Unit 2 Learning Journal!\n\nPART 1\n\nThe volume
+	 of a sphere is 4/3πr3\, where π has the value of "pi" given in Section 2.1
+	 of your textbook. Write a function called print_volume (r) that takes an a
+	rgument for the sphere's radius and prints the sphere's volume.\n\nCall you
+	r print_volume function three times with different values for radius.\n\nIn
+	clude all of the following in your Learning Journal:\n\n	* The code for you
+	r print_volume function.\n	* The inputs and outputs to three calls of your 
+	print_volume.\n\n-------------------------\n\nPART 2\n\nWrite your own func
+	tion that illustrates a feature that you learned in this unit. The function
+	 must take at least one argument. The function should be your own creation\
+	, not copied from any other source. DO NOT COPY A FUNCTION FROM YOUR TEXTBO
+	OK OR THE INTERNET.\n\nInclude all of the following in your Learning Journa
+	l:\n\n	* The code for the function that you invented.\n\n	* The inputs and 
+	outputs to three calls of your invented function.\n\n	* A description of wh
+	at feature(s) your function illustrates.  \n\nThe code and its output must 
+	be explained technically. The explanation can be provided before or after t
+	he code\, or in the form of comments within the code. For code modification
+	 type of questions\, always mention or clearly highlight the part which is 
+	modified\, along with the reason stated\, as a code comment. The descriptiv
+	e part of your response must be at least 200 words.\n\nIf you use an inform
+	ational source\, be sure to identify the source and share the link to the s
+	ource you used.\n\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20221225T121540Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230210T045500Z
+DTEND:20230210T045500Z
+CATEGORIES:CS 1101-01 - AY2023-T3
+END:VEVENT
+BEGIN:VEVENT
+UID:2874236@my.uopeople.edu
+SUMMARY:Self-Quiz Unit 3 closes
+DESCRIPTION:The Self-Quiz gives you an opportunity to self-assess your know
+	ledge of what you have learned so far.\n\nThe results of the Self-Quiz do n
+	ot count towards your final grade\, but the quiz is an important part of th
+	e University’s learning process and it is expected that you will take it to
+	 ensure understanding of the materials presented. Reviewing and analyzing y
+	our results will help you perform better on future Graded Quizzes and the F
+	inal Exam.\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20221225T121540Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230216T045500Z
+DTEND:20230216T045500Z
+CATEGORIES:CS 1101-01 - AY2023-T3
+END:VEVENT
+BEGIN:VEVENT
+UID:2874237@my.uopeople.edu
+SUMMARY:Graded Quiz Unit 3 closes
+DESCRIPTION:The Graded Quiz will test your knowledge of all the materials l
+	earned thus far. You will have 45 MINUTES and 1 ATTEMPT to complete the qui
+	z. The results of the quiz will count towards your final grade.\n\nGood luc
+	k!\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20221225T121540Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230216T045500Z
+DTEND:20230216T045500Z
+CATEGORIES:CS 1101-01 - AY2023-T3
+END:VEVENT
+BEGIN:VEVENT
+UID:2874228@my.uopeople.edu
+SUMMARY:Learning Journal Unit 3 is due
+DESCRIPTION:Welcome to the Unit 3 Learning Journal!\n\n1. Copy the countdow
+	n function from Section 5.8 of your textbook.\n\ndef countdown(n):\n     if
+	 n <= 0:\n          print('Blastoff!')\n     else:\n          print(n)\n   
+	       countdown(n-1)\n\nWrite a new recursive function countup that expect
+	s a negative argument and counts “up” from that number. Output from running
+	 the function should look something like this:\n\n>>> countup(-3)\n-3\n-2\n
+	-1\nBlastoff!\n\nWrite a Python program that gets a number using KEYBOARD I
+	NPUT. (Remember to use input for Python 3 but raw_input for Python 2.)\n\nI
+	f the number is positive\, the program should call countdown. If the number
+	 is negative\, the program should call countup. Choose for yourself which f
+	unction to call (countdown or countup) for input of zero.\n\nProvide the fo
+	llowing.\n\n	* The code of your program.\n\n	* Respective output for the fo
+	llowing inputs: a positive number\, a negative number\, and zero.\n\n	* An 
+	explanation of your choice for what to call for input of zero.\n\n2. Write 
+	your own unique Python program that has a RUNTIME ERROR. Do not copy the pr
+	ogram from your textbook or the Internet. Provide the following.\n\n	* The 
+	code for your program.\n\n	* Output demonstrating the runtime error\, inclu
+	ding the error message.\n\n	* An explanation of the error message.\n\n	* An
+	 explanation of how to fix the error.\n\nThe code and its output must be ex
+	plained technically. The explanation can be provided before or after the co
+	de\, or in the form of comments within the code. For code modification type
+	 of questions\, always mention or clearly highlight the part which is modif
+	ied\, along with the reason stated\, as a code comment. The descriptive par
+	t of your response must be at least 200 words.\n\nIf you use an information
+	al source\, be sure to identify the source and share the link to the source
+	 you used.\n\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20221225T121540Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230217T045500Z
+DTEND:20230217T045500Z
+CATEGORIES:CS 1101-01 - AY2023-T3
+END:VEVENT
+BEGIN:VEVENT
+UID:2862107@my.uopeople.edu
+SUMMARY:AY2023-T3 Last day course withdrawal
+DESCRIPTION:Last day - Course Withdrawal. Remember you can always consult w
+	ith your Program Advisor on the best course of action as we would not like 
+	to see you miss out on a term as you study towards your degree.\n\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T062153Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230222T050000Z
+DTEND:20230222T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862133@my.uopeople.edu
+SUMMARY:AY2023-T4 Course Registration opens
+DESCRIPTION:Course registration for the upcoming term is now open [1]. Chec
+	k your e-mail for an important e-mail from Student Services. This e-mail wi
+	ll provide you with information on when the registration portal will be ope
+	n for you to register based on your class standing.\n\n\n\nLinks:\n------\n
+	[1] https://your.uopeople.edu/\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T065801Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230223T050000Z
+DTEND:20230223T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862138@my.uopeople.edu
+SUMMARY:AY2023-T4 Course Registration closes
+DESCRIPTION:Last day to register [1] for the upcoming term. If you are not 
+	registering for the upcoming\, you should apply for a Leave of Absence (LOA
+	) to avoid being administratively withdrawn from the university. Note that 
+	UoPeople allows students to be inactive for up to three (3) consecutive ter
+	ms but not more than three (3) terms in each academic year (September - Aug
+	ust).\n\n\n\nLinks:\n------\n[1] https://your.uopeople.edu/\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T070346Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230315T050000Z
+DTEND:20230315T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862112@my.uopeople.edu
+SUMMARY:AY2023-T3 Undergraduate Final Exam period starts
+DESCRIPTION:Undergraduate final exams period starts. Keep in mind that the 
+	final exams opens for 4 days only (Thursday - Sunday)\, and you should take
+	 the final exams as early in the exams period as possible and not close to 
+	the deadline or last minute.\n\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T062552Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230323T050000Z
+DTEND:20230323T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862117@my.uopeople.edu
+SUMMARY:AY2023-T3 Undergraduate Final Exam period ends
+DESCRIPTION:Last day to take the final exams for undergraduates and last da
+	y to pay course assessment fee. If you have not yet paid your course assess
+	ment fee\, complete your payment today [1] in order not to be put on financ
+	ial hold and lose your spot in the upcoming term!\n\n\n\nLinks:\n------\n[1
+	] https://your.uopeople.edu/\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T062925Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230326T050000Z
+DTEND:20230326T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862122@my.uopeople.edu
+SUMMARY:AY2023-T3 Last day of Term
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T063809Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230329T050000Z
+DTEND:20230329T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862143@my.uopeople.edu
+SUMMARY:AY2023-T4 Late Course Registration opens
+DESCRIPTION:Late course registration opens [1]. A reminder that the late co
+	urse registration opens over a 3 - day period only (Friday - Sunday). For a
+	ny questions you may have about the Late registration\, contact your Progra
+	m Advisor.\n\n\n\nLinks:\n------\n[1] https://your.uopeople.edu/\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T070709Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230331T050000Z
+DTEND:20230331T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862148@my.uopeople.edu
+SUMMARY:AY2023-T4 Late Course Registration closes
+DESCRIPTION:Last day [1] - Late course registration.\n\n\n\nLinks:\n------\
+	n[1] https://your.uopeople.edu/\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T071020Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230402T050000Z
+DTEND:20230402T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862127@my.uopeople.edu
+SUMMARY:AY2023-T3 Grades published
+DESCRIPTION:
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T064550Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230405T050000Z
+DTEND:20230405T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862098@my.uopeople.edu
+SUMMARY:First day of Term 4
+DESCRIPTION:First day of Term. Make sure to login to Moodle [1] and remembe
+	r to thoroughly read the course syllabus  located in the General Informatio
+	n and forum section of the course homepage before you start completing the 
+	class activities for the first week.\n\n\n\nLinks:\n------\n[1] https://my.
+	uopeople.edu/login/index.php\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T061411Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230406T050000Z
+DTEND:20230406T050000Z
+CATEGORIES:Site events
+END:VEVENT
+BEGIN:VEVENT
+UID:2862103@my.uopeople.edu
+SUMMARY:AY2023-T4 Last day course drop
+DESCRIPTION:Last day - Course drop. Remember you can always consult with yo
+	ur Program Advisor on the best course of action as we would not like to see
+	 you miss out on a term as you study towards your degree.\n\n
+	
+CLASS:PUBLIC
+LAST-MODIFIED:20220901T061843Z
+DTSTAMP:20230211T090403Z
+DTSTART:20230412T050000Z
+DTEND:20230412T050000Z
+CATEGORIES:Site events
+END:VEVENT
+END:VCALENDAR
