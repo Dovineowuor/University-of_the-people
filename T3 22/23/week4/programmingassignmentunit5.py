@@ -25,3 +25,4 @@ def test_sqrt():
 
 #The "test_sqrt" function initializes "a" to 1 and loops through values of "a" up to 25. For each value of "a", it calls both "my_sqrt" and "math.sqrt" functions to obtain the estimated square root using both methods. It then calculates the absolute difference between the two estimates and prints a formatted string containing the values of "a", "my_sqrt(a)", "math.sqrt(a)", and "diff".
 test_sqrt() #This will print a table of values for the square root of "a" from 1 to 25 using both "my_sqrt" function and "math.sqrt" function, along with the absolute difference between them.
+
