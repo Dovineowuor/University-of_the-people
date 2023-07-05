@@ -1,0 +1,80 @@
+-- Create the hospital_db database 
+
+CREATE DATABASE hospital_db;
+
+-- Switch to the hospital_db database
+
+USE hospital_db;
+
+
+
+-- Creating the Doctor table
+
+CREATE TABLE Doctor (
+
+  DoctorID INT PRIMARY KEY,
+
+  DoctorName VARCHAR(255),
+
+  DoctorPhone VARCHAR(20),
+
+  SpecialtyNumber INT,
+
+  Specialty VARCHAR(255)
+
+);
+
+
+
+-- Creating the Patient table
+
+CREATE TABLE Patient (
+
+  PatientID INT PRIMARY KEY,
+
+  PatientName VARCHAR(255),
+
+  PatientPhone VARCHAR(20),
+
+  PatientEmail VARCHAR(255),
+
+  PatientAddress VARCHAR(255),
+
+  DateAdded DATE,
+
+  Allergies VARCHAR(255),
+
+  DoctorID INT,
+
+  FOREIGN KEY (DoctorID) REFERENCES Doctor(DoctorID)
+
+);
+
+
+
+-- Creating the Appointment table
+
+CREATE TABLE Appointment (
+
+  AppointmentID INT PRIMARY KEY,
+
+  AppointmentDate DATE,
+
+  DoctorID INT,
+
+  PatientID INT,
+
+  BloodPressure VARCHAR(20),
+
+  Pulse INT,
+
+  TreatmentNotes VARCHAR(255),
+
+  Medicines VARCHAR(255),
+
+  FOREIGN KEY (DoctorID) REFERENCES Doctor(DoctorID),
+
+  FOREIGN KEY (PatientID) REFERENCES Patient(PatientID)
+
+);
+
