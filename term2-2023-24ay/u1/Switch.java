@@ -4,7 +4,7 @@ public class Switch {
     }
 
     public static void main(String[] args) {
-        Profession a = Profession;
+        Profession a = Profession.SOFTWARE_ENGINEER;
         switch (a) {
             case SOFTWARE_ENGINEER:
                 System.out.println("You Want Problems!");
